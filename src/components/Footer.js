@@ -12,15 +12,15 @@ import logo6 from "../image/logo6.png";
 const Footer = () => {
   return (
     <footer className="bg-white w-full md:w-[1280px] h-auto md:h-[228px] py-1 mx-96">
-    <div className="flex justify-between items-center h-full px-8">  {/* Use h-full for full height */}
-      {/* Align text to the left corner */}
+    <div className="flex justify-between items-center h-full px-8">  
+      
       <h5 className="font-bold text-[24px] leading-[33.6px] text-black">
         Trusted by 2000+ companies worldwide.
       </h5>
-      {/* Add a placeholder for the right corner, like an image or logo */}
+    
       <div className="mr-8">
 
-        {/* Logos */}
+    
         <div className="flex gap-[40px] items-center">
           <Image src={logo1} alt="Logo 1" className="h-12" />
           <Image src={logo2} alt="Logo 2" className="h-12" />
